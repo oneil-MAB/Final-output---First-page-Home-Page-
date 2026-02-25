@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>O'neil Store | Home</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(229, 226, 40, 0.518);
+    text-align: center;
+}
+
+
+header {
+    background-color: rgb(22, 238, 44);
+    color: white;
+    padding: 20px;
+}
+
+
+nav {
+    background-color: rgb(119, 97, 18);
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.menu-container {
+    margin: 20px;
+}
+
+
+.card {
+    border: 1px solid #011302e1;
+    padding: 15px;
+    margin: 10px auto;
+    width: 300px;
+}
+
+
+.order-section {
+    margin: 20px;
+}
+
+input, select {
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    padding: 8px;
+}
+
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>O'neil Store</h1>
+    <p>Order Your Favorite Food Online</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Order</a>
+    <a href="#">Contact</a>
+</nav>
+
+<h2>Best Sellers</h2>
+
+<div class="menu-container">
+    <div class="card">
+        <h3>Burger</h3>
+        <p>Delicious beef burger - ₱99</p>
+    </div>
+
+    <div class="card">
+        <h3>Fried Chicken</h3>
+        <p>Crispy & juicy chicken - ₱120</p>
+    </div>
+
+    <div class="card">
+        <h3>Milk Tea</h3>
+        <p>Refreshing wintermelon flavor - ₱85</p>
+    </div>
+</div>
+
+<div class="order-section">
+    <h2>Order Now</h2>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" required><br>
+
+        <label>Select Food:</label><br>
+        <select required>
+            <option>-- Choose Item --</option>
+            <option>Burger</option>
+            <option>Fried Chicken</option>
+            <option>Milk Tea</option>
+        </select><br><br>
+
+        <button type="submit">Place Order</button>
+    </form>
+</div>
+
+<footer>
+    <p>Email: oneilalindog@gmail.com</p>
+    <p>FB:O'neil Alindog</p>
+    <p>contact:09229504575</p>
+</footer>
+
+</body>
+</html>
